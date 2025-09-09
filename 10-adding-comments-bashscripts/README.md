@@ -22,6 +22,47 @@ echo "Here is an actual code that gets executed"
 ```
 ![multiple-single-line-comment](./img/2.multiple-single-line-comment.png)
 This approach is straightforward and is commonly used for adding brief descriptions or notes spanning multiple lines. 
+
+## Multi-Line Separator-Style Comment ##
+* Here’s a complete functional Bash script
+```
+#!/bin/bash
+
+# --------------------------------------
+# Multi-line comment:
+# This script will:
+# 1. Print a welcome message
+# 2. Create a new folder called TestFolder
+# 3. List all files in the current directory
+# 4. Display a goodbye message
+# --------------------------------------
+
+# Print welcome message
+echo "Welcome! Let's create a folder and list files."
+
+# Create a new directory called TestFolder
+mkdir TestFolder
+
+# List all files in the current directory
+ls -la
+
+# Print goodbye message
+echo "Goodbye! Script execution completed."
+```
+## Running the Script ##
+
+* Make the script executable:
+```
+chmod u+x script.sh
+```
+* Run the script:
+```
+./script.sh
+```
+![script](./img/3.script.png)
+
+![output](./img/4.output.png)
+![output-contd](./img/5.output-contd.png)
 ## Best Practices for Commenting: ##
 * Clarity: Write clear and concise comments that explain the "why" behind the code, not just the "what". 
 * Maintainability: Keep comments updated as you modify the code to ensure they remain relevant and helpful. 
