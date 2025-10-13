@@ -50,3 +50,23 @@ exit 0
 Submit the following deliverables:
 1. Comprehensive documentation detailing your entire thought process in developing the script.
 2. Link to the extended script.
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+### Output of the execution
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+### Output when ther is existing user(s)/group(s)
+
+![alt text](image-7.png)
